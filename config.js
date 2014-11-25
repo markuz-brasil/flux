@@ -1,9 +1,10 @@
 module.exports = {
   src: './index.js',
-  // standalone: 'BundleNamespace.arch',
+  // standalone: 'BundleNamespace.flux',
   sourcemaps: true,
   entry:'./index.js',
-  basename: 'arch-closure',
+  // basename: 'flux-namespace',
+  basename: 'flux-closure',
   dest: 'build',
-  title: 'arch',
+  title: 'flux',
 }
