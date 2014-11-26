@@ -1,5 +1,4 @@
 module.exports = {
-  src: './index.js',
   // standalone: 'BundleNamespace.flux',
   sourcemaps: true,
   entry:'./index.js',
@@ -7,4 +6,33 @@ module.exports = {
   basename: 'flux-closure',
   dest: 'build',
   title: 'flux',
+  jade: {
+    src: [
+      './public/**/*.{jade,html}',
+      './views/**/*.{jade,html}',
+    ],
+    // TODO: use this opt intead of having it hard coded on assets
+    opt: {},
+  },
+  less: {
+    src: [
+      './public/**/*.{css,less}',
+      './views/**/*.{css,less}',
+    ],
+    // TODO: use this opt intead of having it hard coded on assets
+    opt: {}
+  },
+  less: [
+
+  ],
+  js: {
+    src: [
+      './index.{js,jsx}',
+      './src/**/*.{js,jsx}',
+    ],
+    // TODO: use this opt intead of having it hard coded on assets
+    // use this for browserify
+    opt: {},
+  }
 }
+
