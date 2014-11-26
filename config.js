@@ -22,9 +22,6 @@ module.exports = {
     // TODO: use this opt intead of having it hard coded on assets
     opt: {}
   },
-  less: [
-
-  ],
   js: {
     src: [
       './index.{js,jsx}',
