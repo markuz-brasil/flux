@@ -1,6 +1,6 @@
 var t0 = new Date
 
-import './src/zone-addons'
+// import './src/zone-addons'
 
 import * as c0 from 'c0'
 import * as di from 'di'
