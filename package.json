@@ -15,7 +15,8 @@
     "c0": "git://github.com/markuz-brasil/c0",
     "di": "git://github.com/markuz-brasil/di-commonjs",
     "tau-runtime": "git://github.com/markuz-brasil/tau-runtime",
-    "tau-build": "git://github.com/markuz-brasil/tau-build"
+    "tau-build": "git://github.com/markuz-brasil/tau-build",
+    "zone.js": "git://github.com/angular/zone.js"
   },
   "author": "",
   "license": "MIT"
