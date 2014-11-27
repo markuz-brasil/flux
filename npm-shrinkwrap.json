@@ -6565,7 +6565,7 @@
     "tau-runtime": {
       "version": "0.0.0",
       "from": "tau-runtime@git://github.com/markuz-brasil/tau-runtime",
-      "resolved": "git://github.com/markuz-brasil/tau-runtime#b1e26d069f3720b591d3f4b54f53509fc069bc17",
+      "resolved": "git://github.com/markuz-brasil/tau-runtime#05c669500bf0a27a8672b96d7f1733fc72cabc16",
       "dependencies": {
         "es6-shim": {
           "version": "0.21.0",
