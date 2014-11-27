@@ -30,95 +30,95 @@
         "commander": {
           "version": "2.3.0",
           "from": "commander@~2.3.0",
-          "resolved": "http://127.0.0.1:5080/tarballs/commander/2.3.0.tgz"
+          "resolved": "https://registry.npmjs.org/commander/-/commander-2.3.0.tgz"
         },
         "esprima-fb": {
           "version": "7001.1.0-dev-harmony-fb",
           "from": "esprima-fb@~7001.1.0-dev-harmony-fb",
-          "resolved": "http://127.0.0.1:5080/tarballs/esprima-fb/7001.1.0-dev-harmony-fb.tgz"
+          "resolved": "https://registry.npmjs.org/esprima-fb/-/esprima-fb-7001.1.0-dev-harmony-fb.tgz"
         },
         "recast": {
           "version": "0.8.8",
           "from": "recast@~0.8.0",
-          "resolved": "http://127.0.0.1:5080/tarballs/recast/0.8.8.tgz",
+          "resolved": "https://registry.npmjs.org/recast/-/recast-0.8.8.tgz",
           "dependencies": {
             "source-map": {
               "version": "0.1.32",
               "from": "source-map@0.1.32",
-              "resolved": "http://127.0.0.1:5080/tarballs/source-map/0.1.32.tgz",
+              "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.1.32.tgz",
               "dependencies": {
                 "amdefine": {
                   "version": "0.1.0",
                   "from": "amdefine@>=0.0.4",
-                  "resolved": "http://127.0.0.1:5080/tarballs/amdefine/0.1.0.tgz"
+                  "resolved": "https://registry.npmjs.org/amdefine/-/amdefine-0.1.0.tgz"
                 }
               }
             },
             "cls": {
               "version": "0.1.5",
               "from": "cls@~0.1.3",
-              "resolved": "http://127.0.0.1:5080/tarballs/cls/0.1.5.tgz"
+              "resolved": "https://registry.npmjs.org/cls/-/cls-0.1.5.tgz"
             },
             "depd": {
               "version": "1.0.0",
               "from": "depd@~1.0.0",
-              "resolved": "http://127.0.0.1:5080/tarballs/depd/1.0.0.tgz"
+              "resolved": "https://registry.npmjs.org/depd/-/depd-1.0.0.tgz"
             },
             "ast-types": {
               "version": "0.5.7",
               "from": "ast-types@~0.5.7",
-              "resolved": "http://127.0.0.1:5080/tarballs/ast-types/0.5.7.tgz"
+              "resolved": "https://registry.npmjs.org/ast-types/-/ast-types-0.5.7.tgz"
             }
           }
         },
         "promise": {
           "version": "6.0.1",
           "from": "promise@~6.0.0",
-          "resolved": "http://127.0.0.1:5080/tarballs/promise/6.0.1.tgz",
+          "resolved": "https://registry.npmjs.org/promise/-/promise-6.0.1.tgz",
           "dependencies": {
             "asap": {
               "version": "1.0.0",
               "from": "asap@~1.0.0",
-              "resolved": "http://127.0.0.1:5080/tarballs/asap/1.0.0.tgz"
+              "resolved": "https://registry.npmjs.org/asap/-/asap-1.0.0.tgz"
             }
           }
         },
         "private": {
           "version": "0.1.6",
           "from": "private@~0.1.5",
-          "resolved": "http://127.0.0.1:5080/tarballs/private/0.1.6.tgz"
+          "resolved": "https://registry.npmjs.org/private/-/private-0.1.6.tgz"
         },
         "through": {
           "version": "2.3.6",
           "from": "through@~2.3.6",
-          "resolved": "http://127.0.0.1:5080/tarballs/through/2.3.6.tgz"
+          "resolved": "https://registry.npmjs.org/through/-/through-2.3.6.tgz"
         },
         "defs": {
           "version": "1.0.1",
           "from": "defs@~1.0.1",
-          "resolved": "http://127.0.0.1:5080/tarballs/defs/1.0.1.tgz",
+          "resolved": "https://registry.npmjs.org/defs/-/defs-1.0.1.tgz",
           "dependencies": {
             "alter": {
               "version": "0.2.0",
               "from": "alter@~0.2.0",
-              "resolved": "http://127.0.0.1:5080/tarballs/alter/0.2.0.tgz",
+              "resolved": "https://registry.npmjs.org/alter/-/alter-0.2.0.tgz",
               "dependencies": {
                 "stable": {
                   "version": "0.1.5",
                   "from": "stable@~0.1.3",
-                  "resolved": "http://127.0.0.1:5080/tarballs/stable/0.1.5.tgz"
+                  "resolved": "https://registry.npmjs.org/stable/-/stable-0.1.5.tgz"
                 }
               }
             },
             "ast-traverse": {
               "version": "0.1.1",
               "from": "ast-traverse@~0.1.1",
-              "resolved": "http://127.0.0.1:5080/tarballs/ast-traverse/0.1.1.tgz"
+              "resolved": "https://registry.npmjs.org/ast-traverse/-/ast-traverse-0.1.1.tgz"
             },
             "breakable": {
               "version": "1.0.0",
               "from": "breakable@~1.0.0",
-              "resolved": "http://127.0.0.1:5080/tarballs/breakable/1.0.0.tgz"
+              "resolved": "https://registry.npmjs.org/breakable/-/breakable-1.0.0.tgz"
             },
             "esprima": {
               "version": "1.1.0-dev-harmony",
@@ -128,32 +128,32 @@
             "simple-fmt": {
               "version": "0.1.0",
               "from": "simple-fmt@~0.1.0",
-              "resolved": "http://127.0.0.1:5080/tarballs/simple-fmt/0.1.0.tgz"
+              "resolved": "https://registry.npmjs.org/simple-fmt/-/simple-fmt-0.1.0.tgz"
             },
             "simple-is": {
               "version": "0.2.0",
               "from": "simple-is@~0.2.0",
-              "resolved": "http://127.0.0.1:5080/tarballs/simple-is/0.2.0.tgz"
+              "resolved": "https://registry.npmjs.org/simple-is/-/simple-is-0.2.0.tgz"
             },
             "stringmap": {
               "version": "0.2.2",
               "from": "stringmap@~0.2.2",
-              "resolved": "http://127.0.0.1:5080/tarballs/stringmap/0.2.2.tgz"
+              "resolved": "https://registry.npmjs.org/stringmap/-/stringmap-0.2.2.tgz"
             },
             "stringset": {
               "version": "0.2.1",
               "from": "stringset@~0.2.1",
-              "resolved": "http://127.0.0.1:5080/tarballs/stringset/0.2.1.tgz"
+              "resolved": "https://registry.npmjs.org/stringset/-/stringset-0.2.1.tgz"
             },
             "tryor": {
               "version": "0.1.2",
               "from": "tryor@~0.1.2",
-              "resolved": "http://127.0.0.1:5080/tarballs/tryor/0.1.2.tgz"
+              "resolved": "https://registry.npmjs.org/tryor/-/tryor-0.1.2.tgz"
             },
             "yargs": {
               "version": "1.3.3",
               "from": "yargs@~1.3.2",
-              "resolved": "http://127.0.0.1:5080/tarballs/yargs/1.3.3.tgz"
+              "resolved": "https://registry.npmjs.org/yargs/-/yargs-1.3.3.tgz"
             }
           }
         }
@@ -162,7 +162,7 @@
     "setimmediate": {
       "version": "1.0.2",
       "from": "setimmediate@>=1.0.2",
-      "resolved": "http://127.0.0.1:5080/tarballs/setimmediate/1.0.2.tgz"
+      "resolved": "https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.2.tgz"
     },
     "tau-build": {
       "version": "0.0.0",
@@ -6707,57 +6707,57 @@
     "tau-runtime": {
       "version": "0.0.0",
       "from": "tau-runtime@git://github.com/markuz-brasil/tau-runtime",
-      "resolved": "git://github.com/markuz-brasil/tau-runtime#08d5ee71f0149e0abfe2404bebfe434dcfc7eb41",
+      "resolved": "git://github.com/markuz-brasil/tau-runtime#e99bc1b6f5a13fef1709678232c2cad4f15ff9c7",
       "dependencies": {
         "famous": {
           "version": "0.3.1",
-          "from": "famous@git://github.com/markuz-brasil/famous-commonjs",
+          "from": "famous@git://github.com/markuz-brasil/famous-commonjs#3b86c52830c80f15198750d6816a12be3e683e35",
           "resolved": "git://github.com/markuz-brasil/famous-commonjs#3b86c52830c80f15198750d6816a12be3e683e35"
         },
         "object-assign": {
           "version": "2.0.0",
-          "from": "object-assign@^2.0.0",
+          "from": "http://127.0.0.1:5080/tarballs/object-assign/2.0.0.tgz",
           "resolved": "http://127.0.0.1:5080/tarballs/object-assign/2.0.0.tgz"
         },
         "react": {
           "version": "0.12.1",
-          "from": "react@>=0.11.2",
+          "from": "http://127.0.0.1:5080/tarballs/react/0.12.1.tgz",
           "resolved": "http://127.0.0.1:5080/tarballs/react/0.12.1.tgz",
           "dependencies": {
             "envify": {
               "version": "3.2.0",
-              "from": "envify@^3.0.0",
+              "from": "http://127.0.0.1:5080/tarballs/envify/3.2.0.tgz",
               "resolved": "http://127.0.0.1:5080/tarballs/envify/3.2.0.tgz",
               "dependencies": {
                 "through": {
                   "version": "2.3.6",
-                  "from": "through@~2.3.4",
+                  "from": "http://127.0.0.1:5080/tarballs/through/2.3.6.tgz",
                   "resolved": "http://127.0.0.1:5080/tarballs/through/2.3.6.tgz"
                 },
                 "jstransform": {
                   "version": "7.0.0",
-                  "from": "jstransform@^7.0.0",
+                  "from": "http://127.0.0.1:5080/tarballs/jstransform/7.0.0.tgz",
                   "resolved": "http://127.0.0.1:5080/tarballs/jstransform/7.0.0.tgz",
                   "dependencies": {
                     "base62": {
                       "version": "0.1.1",
-                      "from": "base62@0.1.1",
+                      "from": "http://127.0.0.1:5080/tarballs/base62/0.1.1.tgz",
                       "resolved": "http://127.0.0.1:5080/tarballs/base62/0.1.1.tgz"
                     },
                     "esprima-fb": {
                       "version": "7001.1.0-dev-harmony-fb",
-                      "from": "esprima-fb@~7001.0001.0000-dev-harmony-fb",
+                      "from": "https://registry.npmjs.org/esprima-fb/-/esprima-fb-7001.1.0-dev-harmony-fb.tgz",
                       "resolved": "https://registry.npmjs.org/esprima-fb/-/esprima-fb-7001.1.0-dev-harmony-fb.tgz"
                     },
                     "source-map": {
                       "version": "0.1.31",
-                      "from": "source-map@0.1.31",
+                      "from": "http://127.0.0.1:5080/tarballs/source-map/0.1.31.tgz",
                       "resolved": "http://127.0.0.1:5080/tarballs/source-map/0.1.31.tgz",
                       "dependencies": {
                         "amdefine": {
                           "version": "0.1.0",
-                          "from": "amdefine@>=0.0.4",
-                          "resolved": "http://127.0.0.1:5080/tarballs/amdefine/0.1.0.tgz"
+                          "from": "https://registry.npmjs.org/amdefine/-/amdefine-0.1.0.tgz",
+                          "resolved": "https://registry.npmjs.org/amdefine/-/amdefine-0.1.0.tgz"
                         }
                       }
                     }
@@ -6769,7 +6769,7 @@
         },
         "tau-build": {
           "version": "0.0.0",
-          "from": "tau-build@git://github.com/markuz-brasil/tau-build",
+          "from": "tau-build@git://github.com/markuz-brasil/tau-build#4418a9aaa70728a2fa81b8ba9876759f909fbd1b",
           "resolved": "git://github.com/markuz-brasil/tau-build#4418a9aaa70728a2fa81b8ba9876759f909fbd1b",
           "dependencies": {
             "6to5": {
