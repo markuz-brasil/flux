@@ -2,9 +2,7 @@
 // import * as c0 from 'c0'
 import {Injector, Inject, annotate, Provide} from 'di'
 
-import * as tau from './interface'
-
-import { DOM } from './react-famous'
+import * as tau from './injectables'
 
 var vidProps = {
   ref: 'vid3',
@@ -20,12 +18,12 @@ var vidProps = {
   src: './dizzy.mp4'
 }
 
-var {Video, Div, Ul, Li, Img, Span} = DOM
 
 
 annotate(FirstPaint, new Provide(tau.FirstPaint))
-annotate(FirstPaint, new Inject(tau.React, tau.Famous, document))
-export function FirstPaint (React, Famous, $doc) {
+annotate(FirstPaint, new Inject(tau.React, tau.Famous, tau.DOM, document))
+export function FirstPaint (React, Famous, DOM, $doc) {
+  var {Video, Div, Ul, Li, Img, Span} = DOM
 
   var Timer = Famous.utilities.Timer
   var Transform = Famous.core.Transform

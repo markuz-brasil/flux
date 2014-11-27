@@ -8,3 +8,5 @@ export function FirstPaint () {}
 export function DocumentReady () {}
 export function React () {}
 export function Famous () {}
+export function DOM () {}
+export function Mixin () {}

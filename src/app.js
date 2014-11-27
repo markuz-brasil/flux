@@ -3,8 +3,16 @@ import * as c0 from 'c0'
 import {Injector, Inject, annotate, Provide} from 'di'
 import { readFileSync } from 'fs'
 
-import * as tau from './interface'
-import {FirstPaint} from './FirstPaint'
+import * as tau from './injectables'
+import { FirstPaint } from './FirstPaint'
+
+import {
+  $runtime,
+  React,
+  Famous,
+  DOM,
+  Mixin
+} from './runtime'
 
 export var App = [
   Startup, DocumentReady, Dispatcher,
@@ -29,13 +37,12 @@ function DocumentReady ($win, $doc) {
   }
 }
 
-
 annotate(Dispatcher, new Provide(tau.Dispatcher))
 function Dispatcher () {
   return new Injector([
     $window, $document, $runtime,
     Context, Dispatcher, FirstPaint,
-    React, Famous,
+    React, Famous, DOM, Mixin,
   ])
 }
 
@@ -51,26 +58,6 @@ function Startup (pageLoad, dispatcher) {
   })
 }
 
-
-annotate(React, new Provide(tau.React))
-annotate(React, new Inject(tau.$runtime))
-function React ($runtime) {
-  return $runtime.React
-}
-
-annotate(Famous, new Provide(tau.Famous))
-annotate(Famous, new Inject(tau.$runtime))
-function Famous ($runtime) {
-  return $runtime.Famous
-}
-
-
-annotate($runtime, new Provide(tau.$runtime))
-annotate($runtime, new Inject($window))
-function $runtime ($win) {
-  return $win.BundleNamespace.runtime
-}
-
 annotate(Context, new Provide(tau.Context))
 function Context () {
   return {
@@ -79,11 +66,7 @@ function Context () {
 }
 
 annotate($window, new Provide(window))
-function $window () {
-  return window
-}
+function $window () { return window }
 
 annotate($document, new Provide(document))
-function $document () {
-  return document
-}
+function $document () { return document }

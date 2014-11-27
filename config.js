@@ -9,7 +9,7 @@ module.exports = {
   jade: {
     src: [
       './public/**/*.{jade,html}',
-      './views/**/*.{jade,html}',
+      './src/views/**/*.{jade,html}',
     ],
     // TODO: use this opt intead of having it hard coded on assets
     opt: {},
@@ -17,7 +17,7 @@ module.exports = {
   less: {
     src: [
       './public/**/*.{css,less}',
-      './views/**/*.{css,less}',
+      './src/views/**/*.{css,less}',
     ],
     // TODO: use this opt intead of having it hard coded on assets
     opt: {}
