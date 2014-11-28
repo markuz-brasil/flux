@@ -1,6 +1,4 @@
-
-// import * as c0 from 'c0'
-import {Injector, Inject, annotate, Provide} from 'di'
+import { Inject, annotate, Provide} from 'di'
 
 import { Surface, Style } from './annotations'
 import * as tau from './injectables'

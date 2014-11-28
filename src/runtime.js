@@ -1,4 +1,3 @@
-
 import * as famous from 'famous'
 import { Inject, annotate, Provide } from 'di'
 

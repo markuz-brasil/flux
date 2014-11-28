@@ -1,4 +1,3 @@
-
 // TODO: explain the purpose of this file
 
 export class Surface {

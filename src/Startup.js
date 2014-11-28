@@ -1,4 +1,3 @@
-
 import * as c0 from 'c0'
 import { Inject, annotate, Provide } from 'di'
 
@@ -23,6 +22,7 @@ annotate(DocumentReady, new Inject(window, document))
 export function DocumentReady ($win, $doc) {
   if ($doc.readyState === "complete") return
 
+  // see c0's API
   return (next) => {
     // making double sure we get the load event
     $doc.addEventListener( "DOMContentLoaded", loaded, false )

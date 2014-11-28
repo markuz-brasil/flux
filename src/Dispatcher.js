@@ -1,4 +1,3 @@
-
 import {Injector, Inject, annotate, Provide} from 'di'
 import { hasAnnotation } from 'di/annotations'
 
@@ -33,13 +32,14 @@ export default function Dispatcher (providers) {
       var annotations = tokenProvider.annotations
 
       if (hasAnnotation(tokenProvider, Surface)) {
+        // only first Surface annotation matters!
         Object.assign(instace, annotations.filter((a) => a instanceof Surface)[0])
       }
 
       if (hasAnnotation(tokenProvider, Style)) {
         var styles = annotations
           .filter((a) => a instanceof Style)
-          .map((s)=> s.properties)
+          .map((s) => s.properties)
 
         styles.unshift({})
         styles = Object.assign.apply(Object, styles)
