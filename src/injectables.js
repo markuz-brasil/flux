@@ -1,12 +1,10 @@
-// TODO: document the API here
+// TODO: explain the point of this file
+// best place to doc the framework API.
 
 export function Startup () {}
-export function $context () {}
+export function Context () {}
 export function Dispatcher () {}
-export function $runtime () {}
 export function FirstPaint () {}
 export function DocumentReady () {}
-export function React () {}
 export function $famous () {}
-export function DOM () {}
-export function Mixin () {}
+export function $global () {}

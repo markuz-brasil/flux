@@ -1,7 +1,7 @@
 var t0 = new Date
 
 // this must be the real first thing.
-import './src/shims'
+import './shims'
 
 import * as c0 from 'c0'
 import { Injector } from 'di'
@@ -12,7 +12,7 @@ import { Startup, DocumentReady } from './src/Startup'
 import { $window, $document } from './src/runtime'
 import Dispatcher from './src/Dispatcher'
 
-// Providers
+// Initial Providers
 var App = [
   $window, $document,
   Startup, DocumentReady, Dispatcher,
@@ -29,4 +29,3 @@ c0(function * () {
 })()
 
 console.log('--- xxx --- xxx ---')
-

@@ -1,16 +1,16 @@
 
-import * as c0 from 'c0'
 import * as famous from 'famous'
-import {Injector, Inject, annotate, Provide} from 'di'
+import { Inject, annotate, Provide } from 'di'
 
 import * as tau from './injectables'
 
-annotate($context, new Provide(tau.$context))
-annotate($context, new Inject(tau.$famous))
-export function $context ($fam) {
+annotate(Context, new Provide(tau.Context))
+annotate(Context, new Inject(tau.$famous))
+export function Context ($fam) {
   return $fam.core.Engine.createContext()
 }
 
+// TODO: doc when to use $ on variable names
 annotate($famous, new Provide(tau.$famous))
 annotate($famous, new Inject(window))
 export function $famous ($win) {

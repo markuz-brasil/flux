@@ -4,13 +4,13 @@ import { hasAnnotation } from 'di/annotations'
 
 import * as tau from './injectables'
 import { Surface, Style } from './annotations'
-import { $window, $document, $context, $famous } from './runtime'
+import { $window, $document, Context, $famous } from './runtime'
 import FirstPaint from './FirstPaint'
 
 export function Providers () {
   return [
-    $context, $window, $document, $famous,
-    FirstPaint,
+    $window, $document, $famous,
+    FirstPaint, Context,
   ]
 }
 
