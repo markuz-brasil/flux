@@ -6,7 +6,7 @@ import * as c0 from 'c0'
 import {Injector} from 'di'
 
 import * as tau from './src/injectables'
-import { App, Dispatcher } from './src/app'
+import { App, Dispatcher } from './src/flux'
 
 
 c0(function * () {
