@@ -1,5 +1,6 @@
 
 import * as c0 from 'c0'
+import * as famous from 'famous'
 import {Injector, Inject, annotate, Provide} from 'di'
 import { hasAnnotation } from 'di/annotations'
 import { readFileSync } from 'fs'
@@ -94,7 +95,7 @@ export function $context ($fam) {
 annotate($famous, new Provide(tau.$famous))
 annotate($famous, new Inject(window))
 export function $famous ($win) {
-  return $win.ReactFamousRuntime.Famous
+  return famous
 }
 
 annotate($window, new Provide(window))
