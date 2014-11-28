@@ -12,5 +12,5 @@ npm-debug.log
 .npmignore
 
 
-src/view/famous.css
+famous.css
 src/di/**
