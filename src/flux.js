@@ -1,8 +1,8 @@
 
 import * as c0 from 'c0'
 import * as famous from 'famous'
-import {Injector, Inject, annotate, Provide} from 'di'
-import { hasAnnotation } from 'di/annotations'
+import {Injector, Inject, annotate, Provide} from './di'
+import { hasAnnotation } from './di/annotations'
 import { readFileSync } from 'fs'
 
 import * as tau from './injectables'

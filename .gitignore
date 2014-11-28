@@ -10,3 +10,7 @@ tmp
 bak
 npm-debug.log
 .npmignore
+
+
+famous.css
+src/di/**

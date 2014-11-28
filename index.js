@@ -3,7 +3,7 @@ var t0 = new Date
 import './src/shims'
 
 import * as c0 from 'c0'
-import {Injector} from 'di'
+import { Injector } from './src/di'
 
 import * as tau from './src/injectables'
 import { App, Dispatcher } from './src/flux'
