@@ -13,77 +13,9 @@
       "resolved": "git://github.com/markuz-brasil/c0#e63fd849d17f3b61a43b77b5037f25e32a79b7d2"
     },
     "di": {
-      "version": "2.0.0-pre-12",
-      "from": "di@git://github.com/angular/di.js",
-      "resolved": "git://github.com/angular/di.js#d6d42e10727b30d8a9d8d3277fb8a6d40f6ad251",
-      "dependencies": {
-        "traceur": {
-          "version": "0.0.33",
-          "from": "traceur@0.0.33",
-          "resolved": "http://127.0.0.1:5080/tarballs/traceur/0.0.33.tgz",
-          "dependencies": {
-            "commander": {
-              "version": "2.5.0",
-              "from": "commander@>=1.1",
-              "resolved": "http://127.0.0.1:5080/tarballs/commander/2.5.0.tgz"
-            },
-            "q-io": {
-              "version": "1.10.9",
-              "from": "q-io@~1.10.6",
-              "resolved": "http://127.0.0.1:5080/tarballs/q-io/1.10.9.tgz",
-              "dependencies": {
-                "q": {
-                  "version": "0.9.7",
-                  "from": "q@~0.9.7",
-                  "resolved": "http://127.0.0.1:5080/tarballs/q/0.9.7.tgz"
-                },
-                "qs": {
-                  "version": "0.1.0",
-                  "from": "qs@~0.1.0",
-                  "resolved": "http://127.0.0.1:5080/tarballs/qs/0.1.0.tgz"
-                },
-                "url2": {
-                  "version": "0.0.0",
-                  "from": "url2@~0.0.0",
-                  "resolved": "http://127.0.0.1:5080/tarballs/url2/0.0.0.tgz"
-                },
-                "mime": {
-                  "version": "1.2.11",
-                  "from": "mime@~1.2.11",
-                  "resolved": "http://127.0.0.1:5080/tarballs/mime/1.2.11.tgz"
-                },
-                "mimeparse": {
-                  "version": "0.1.4",
-                  "from": "mimeparse@~0.1.4",
-                  "resolved": "http://127.0.0.1:5080/tarballs/mimeparse/0.1.4.tgz"
-                },
-                "collections": {
-                  "version": "0.2.2",
-                  "from": "collections@~0.2.0",
-                  "resolved": "http://127.0.0.1:5080/tarballs/collections/0.2.2.tgz",
-                  "dependencies": {
-                    "weak-map": {
-                      "version": "1.0.0",
-                      "from": "weak-map@1.0.0",
-                      "resolved": "http://127.0.0.1:5080/tarballs/weak-map/1.0.0.tgz"
-                    }
-                  }
-                }
-              }
-            },
-            "semver": {
-              "version": "4.1.0",
-              "from": "semver@*",
-              "resolved": "http://127.0.0.1:5080/tarballs/semver/4.1.0.tgz"
-            }
-          }
-        },
-        "es6-shim": {
-          "version": "0.11.1",
-          "from": "es6-shim@~0.11.0",
-          "resolved": "http://127.0.0.1:5080/tarballs/es6-shim/0.11.1.tgz"
-        }
-      }
+      "version": "0.0.0",
+      "from": "di@git://github.com/markuz-brasil/di-commonjs",
+      "resolved": "git://github.com/markuz-brasil/di-commonjs#c98383b9143fcf58e8f3f3b31793cc9fb0b70ba2"
     },
     "es6-shim": {
       "version": "0.21.0",

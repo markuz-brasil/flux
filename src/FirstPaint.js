@@ -1,6 +1,6 @@
 
 // import * as c0 from 'c0'
-import {Injector, Inject, annotate, Provide} from './di'
+import {Injector, Inject, annotate, Provide} from 'di'
 
 import { Surface, Style } from './annotations'
 import * as tau from './injectables'
@@ -25,12 +25,8 @@ annotate(FirstPaint, new Style(`
 
 annotate(FirstPaint, new Provide(tau.FirstPaint))
 annotate(FirstPaint, new Inject(tau.$famous))
-export function FirstPaint ($fam) {
+export default function FirstPaint ($fam) {
   return new $fam.core.Surface({
     size: [200, 200],
   })
 }
-
-
-
-
