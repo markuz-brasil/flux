@@ -25,7 +25,7 @@ c0(function * () {
   // Async init. Control is yield back after first paint
   yield new Injector(App).get(tau.Startup)
 
-  console.log('Startup took:', new Date - t0, 'ms')
+  console.log('First paint took:', new Date - t0, 'ms')
 })()
 
 console.log('--- xxx --- xxx ---')

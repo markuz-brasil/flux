@@ -9,11 +9,8 @@ export function Startup (loading, dispatcher) {
   return c0(function * () {
     yield loading
 
-    var context = dispatcher.get(tau.Context)
-    var paint = dispatcher.get(tau.FirstPaint)
-
     // init app here
-    context.add(paint)
+    dispatcher.get(tau.Paint)
   })
 }
 

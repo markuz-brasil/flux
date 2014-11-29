@@ -4,7 +4,7 @@
 export function Startup () {}
 export function Context () {}
 export function Dispatcher () {}
-export function FirstPaint () {}
+export function Paint () {}
 export function DocumentReady () {}
 export function $famous () {}
 export function $global () {}

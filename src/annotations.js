@@ -1,8 +1,12 @@
 // TODO: explain the purpose of this file
 
-export class Surface {
+import * as $famous from 'famous'
+
+var FamSurface = $famous.core.Surface
+export class Surface extends FamSurface {
   constructor (str) {
-    this.content = str
+    super()
+    this.setContent(str)
   }
 }
 
