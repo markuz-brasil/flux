@@ -29,6 +29,7 @@ gulp
 ##### Watch For Changes & Automatically Refresh Across Devices
 
 ```sh
+gulp watch serve dev
 gulp watch serve build
 ```
 
