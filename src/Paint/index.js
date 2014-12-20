@@ -1,8 +1,6 @@
 import { Inject, annotate, Provide} from 'di'
 
-import { Surface, Style } from '../annotations'
 import * as tau from '../injectables'
-
 import First from './first'
 import Second from './second'
 import Third from './third'

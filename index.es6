@@ -1,7 +1,9 @@
-var t0 = new Date
+// 'use strict';
+// current 6to5 shim doesn't include setImmediate.
+// but on v2.0 it will
+import 'setimmediate'
 
-// this must be the real first thing.
-import './shims'
+var t0 = new Date
 
 import * as c0 from 'c0'
 import { Injector } from 'di'

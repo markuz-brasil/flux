@@ -17,17 +17,17 @@ export function Startup (loading, dispatcher) {
 annotate(DocumentReady, new Provide(tau.DocumentReady))
 annotate(DocumentReady, new Inject(window, document))
 export function DocumentReady ($win, $doc) {
-  if ($doc.readyState === "complete") return
+  if ($doc.readyState === 'complete') { return }
 
   // see c0's API
   return (next) => {
     // making double sure we get the load event
-    $doc.addEventListener( "DOMContentLoaded", loaded, false )
-    $win.addEventListener( "load", loaded, false )
+    $doc.addEventListener( 'DOMContentLoaded', loaded, false )
+    $win.addEventListener( 'load', loaded, false )
 
     function loaded () {
-      $doc.removeEventListener( "DOMContentLoaded", loaded, false )
-      $win.removeEventListener( "load", loaded, false )
+      $doc.removeEventListener( 'DOMContentLoaded', loaded, false )
+      $win.removeEventListener( 'load', loaded, false )
 
       // cleanning the body, just because :)
       $doc.body.innerHTML = ''

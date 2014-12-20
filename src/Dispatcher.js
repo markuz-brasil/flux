@@ -1,8 +1,8 @@
 import {Injector, Inject, annotate, Provide} from 'di'
-import { hasAnnotation } from 'di/annotations'
+import { hasAnnotation } from 'di'
 
 import * as tau from './injectables'
-import { Surface, Style, StateModifier } from './annotations'
+import { Surface, Style } from './annotations'
 import { $window, $document, Context, $famous } from './runtime'
 import Paint from './Paint'
 // import Sections from './sections'
@@ -49,7 +49,7 @@ export default function Dispatcher (providers, context, $fam) {
         surface.properties = styles
       }
 
-      if (surface) return instace.add(surface)
+      if (surface) { return instace.add(surface) }
 
       return instace
     },

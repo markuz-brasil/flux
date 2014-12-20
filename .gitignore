@@ -2,15 +2,11 @@
 **/bower_components/**
 .sass-cache
 dist
-build
 .tmp
 tmp
 .DS_Store
 *-bak
 bak
 npm-debug.log
+vendors
 .npmignore
-
-
-famous.css
-src/di/**
