@@ -1,7 +1,6 @@
-// 'use strict';
 // current 6to5 shim doesn't include setImmediate.
 // but on v2.0 it will
-import 'setimmediate'
+// import 'setimmediate'
 
 var t0 = new Date
 

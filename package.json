@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cp node_modules/wsk/node_modules/6to5/browser-polyfill.js public/shims.js"
+    "copy-shims": "cp node_modules/tau-wsk/node_modules/6to5/browser-polyfill.js public/shims.js",
+    "copy-mocha": "cp node_modules/mocha/mocha.* ./public/.",
+    "copy-chai": "cp node_modules/chai/chai.js ./public/.",
+    "postinstall": "npm run copy-chai; npm run copy-mocha; npm run copy-shims"
   },
   "author": "markuz-brasil",
   "license": "MIT",
@@ -14,10 +17,15 @@
     "c0": "git://github.com/markuz-brasil/c0",
     "di": "git://github.com/markuz-brasil/di",
     "famous": "git://github.com/markuz-brasil/famous",
-    "setimmediate": "^1.0.2",
-    "wsk": "git://github.com/markuz-brasil/tau-wsk"
+    "setimmediate": ">=1.0.2",
+    "tau-wsk": "git://github.com/markuz-brasil/tau-wsk",
+    "thunkify": "^2.1.2"
   },
   "devDependencies": {
-    "gulp": "^3.8.10"
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "mocha": "^2.0.1",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.6.0"
   }
 }

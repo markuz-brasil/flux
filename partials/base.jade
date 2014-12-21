@@ -29,12 +29,14 @@ html(lang='en')
     // SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones
     // <link rel="canonical" href="http://www.example.com/">
 
-    link(rel='stylesheet', href='index.css')
-    script(src='shims.js')
+    block head
+      //- link(rel='stylesheet', href='index.css')
+      //- script(src='shims.js')
   body
-    // build:js scripts/main.min.js
-    script(src='flux-closure.js')
-    // endbuild
+    block body
+      // build:js index.js
+      //- script(src='flux-closure.js')
+      // endbuild
 
     // Google Analytics: change UA-XXXXX-X to be your site's ID
     //script.

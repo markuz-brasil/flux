@@ -15,6 +15,7 @@
   "undef": true,
   "unused": "vars",
   "shadow": true,
+  "noyield": true,
   "-W058": true,
   "-W117": true
 }

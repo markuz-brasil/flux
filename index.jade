@@ -1,0 +1,10 @@
+extends ./partials/base.jade
+
+block head
+  link(rel='stylesheet', href='./index.css')
+  script(src='./shims.js')
+
+block body
+  // build:js ./index.js
+  script(src='./index.js')
+  // endbuild

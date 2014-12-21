@@ -1,15 +1,15 @@
 "use strict"
+var path = require('path')
 
 var gulp = require('gulp')
-require('wsk')(gulp, {
+require('tau-wsk')(gulp, {
   tmp: 'tmp',
   es6: {
-    src: ['./{src,views}/**/*.{js,jsx,es6,ajs}', './index.{js,jsx,es6,ajs}'],
+    src: ['./{src,tests,components}/**/*.{js,jsx,es6,ajs}', './index.{js,jsx,es6,ajs}'],
     commonjs: {},
     browserify: {
       // standalone: 'FLUX',
-      entry: './' + './index.es6',
-      basename: 'flux-closure',
+      entries: ['./index.es6', './tests/index.js'],
       sourcemaps: true,
       dest: 'tmp',
       aliases: {
@@ -20,12 +20,15 @@ require('wsk')(gulp, {
   jade: {
     src: [
       './index.jade',
-      './views/**/*.jade',
+      './{views,tests,components}/**/*.jade',
     ],
     opt: {pretty: true,},
   },
   less: {
-    src: ['./views/**/*.less'],
+    src: [
+      './index.less',
+      './{views,tests,components}/**/*.less'
+    ],
     opt: {
       compress: false,
       paths: [
@@ -34,6 +37,45 @@ require('wsk')(gulp, {
       ],
     },
   },
+  browserSync: {
+    server: {
+      baseDir: [
+        './build',
+        './tmp',
+        './public',
+        // CFG.src,
+      ],
+      middleware: [
+        function (req, res, next) {
+          // TODO: explain the reason for this middleware
+
+          var base = path.basename(req.url)
+          var dir = path.dirname(req.url)
+
+          if ('/tests/tests' === dir) {
+            req.url = path.join('/tests', base)
+          }
+
+          next()
+        },
+      ]
+    },
+
+    logFileChanges: true,
+    ghostMode: false,
+    notify: false,
+    port: 3000,
+    browser: 'skip',
+    // browser: 'chrome',
+
+    // forces full page reload on css changes.
+    injectChanges: false,
+
+    // Run as an https by uncommenting 'https: true'
+    // Note: this uses an unsigned certificate which on first access
+    //       will present a certificate warning in the browser.
+    // https: true,
+  }
 })
 
 
