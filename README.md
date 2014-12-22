@@ -8,13 +8,13 @@
 npm install --global gulp
 ```
 
-This will install Gulp globally. Depending on your user account, you may need to gain elevated permissions using `sudo` (i.e `sudo npm install --global gulp`). Next, install the local dependencies seed requires:
+This will install Gulp globally. Depending on your user account, you may need to gain elevated permissions using `sudo` (i.e `sudo npm install --global gulp`). Next, install the local dependencies flux requires:
 
 ```sh
 npm install
 ```
 
-That's it! You should now have everything needed to begin hacking on seed.
+That's it! You should now have everything needed to begin hacking on flux.
 
 #### Gulp Commands
 
@@ -39,4 +39,4 @@ gulp watch serve build
 Now direct your browser to `http://localhost:3000/`
 
 #### License
-[MIT](https://github.com/markuz-brasil/seed/blob/master/LICENSE)
+[MIT](https://github.com/markuz-brasil/flux/blob/master/LICENSE)
