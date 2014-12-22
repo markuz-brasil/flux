@@ -1,11 +1,11 @@
 {
   "name": "flux",
   "version": "0.0.1",
-  "description": "a seed app",
+  "description": "a flux app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy-shims": "cp node_modules/tau-wsk/node_modules/6to5/browser-polyfill.js public/shims.js",
+    "copy-shims": "cp node_modules/seed/node_modules/6to5/browser-polyfill.js public/shims.js",
     "copy-mocha": "cp node_modules/mocha/mocha.* ./public/.",
     "copy-chai": "cp node_modules/chai/chai.js ./public/.",
     "postinstall": "npm run copy-chai; npm run copy-mocha; npm run copy-shims"
@@ -18,7 +18,7 @@
     "di": "git://github.com/markuz-brasil/di",
     "famous": "git://github.com/markuz-brasil/famous",
     "setimmediate": ">=1.0.2",
-    "tau-wsk": "git://github.com/markuz-brasil/tau-wsk"
+    "seed": "git://github.com/markuz-brasil/seed"
   },
   "devDependencies": {
     "chai": "^1.10.0",

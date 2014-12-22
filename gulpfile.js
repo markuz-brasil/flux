@@ -2,7 +2,7 @@
 var path = require('path')
 
 var gulp = require('gulp')
-require('tau-wsk')(gulp, {
+require('seed')(gulp, {
   tmp: 'tmp',
   es6: {
     src: ['./{src,tests,components}/**/*.{js,jsx,es6,ajs}', './index.{js,jsx,es6,ajs}'],

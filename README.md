@@ -4,13 +4,15 @@
 
 #### Quickstart
 
-```sh
+```
 npm install --global gulp
 ```
 
-This will install Gulp globally. Depending on your user account, you may need to gain elevated permissions using `sudo` (i.e `sudo npm install --global gulp`). Next, install the local dependencies flux requires:
+This will install Gulp globally. Depending on your user account, you may need to gain elevated permissions using `sudo` (i.e `sudo npm install --global gulp`). Next, clone this repo and install the local dependencies flux requires:
 
 ```sh
+git clone --depth=1 https://github.com/markuz-brasil/flux.git
+cd flux
 npm install
 ```
 
