@@ -16,6 +16,11 @@
   "unused": "vars",
   "shadow": true,
   "noyield": true,
-  "-W058": true,
-  "-W117": true
+  "browserify": true,
+  "mocha": true,
+  "globals": {
+    "mocha": true,
+    "chai": true
+  },
+  "-W058": true
 }

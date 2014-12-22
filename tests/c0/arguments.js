@@ -1,3 +1,4 @@
+/* global chai */
 
 import * as c0 from 'c0'
 var { assert } = chai

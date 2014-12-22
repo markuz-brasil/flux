@@ -22,12 +22,12 @@ export function DocumentReady ($win, $doc) {
   // see c0's API
   return (next) => {
     // making double sure we get the document load event
-    $doc.addEventListener( 'DOMContentLoaded', loaded, false )
-    $win.addEventListener( 'load', loaded, false )
+    $doc.addEventListener('DOMContentLoaded', loaded, false )
+    $win.addEventListener('load', loaded, false )
 
     function loaded () {
-      $doc.removeEventListener( 'DOMContentLoaded', loaded, false )
-      $win.removeEventListener( 'load', loaded, false )
+      $doc.removeEventListener('DOMContentLoaded', loaded, false )
+      $win.removeEventListener('load', loaded, false )
       next()
     }
   }

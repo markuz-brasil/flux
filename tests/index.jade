@@ -9,13 +9,8 @@ block body
   #mocha
   script(src='../mocha.js')
   script(src='../chai.js')
-  script.
-    mocha.setup('bdd')
-    mocha.reporter('html')
 
   // build:js(./tmp/tests) ./tests/index.js
   script(src='./index.js')
   // endbuild
 
-  script.
-    mocha.run()

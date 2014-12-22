@@ -1,3 +1,5 @@
+/* global Paint */
+
 import { Inject, annotate, Provide} from 'di'
 
 import * as tau from '../injectables'

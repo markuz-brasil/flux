@@ -1,3 +1,5 @@
+/* global Second */
+
 import { Inject, annotate } from 'di'
 import { Surface, Style } from '../annotations'
 import * as tau from '../injectables'

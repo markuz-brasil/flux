@@ -5,6 +5,9 @@ import 'setimmediate'
 import { readFileSync } from 'fs'
 console.log(readFileSync('./LICENSE', 'utf8'))
 
+mocha.setup('bdd')
+mocha.reporter('html')
+
 import './c0/arguments'
 import './c0/arrays'
 import './c0/generator-functions'
@@ -15,4 +18,5 @@ import './c0/receiver'
 import './c0/recursion'
 import './c0/thunks'
 
+mocha.run()
 console.log('--- xxx --- xxx ---')

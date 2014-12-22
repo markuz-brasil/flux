@@ -1,3 +1,5 @@
+/* global Dispatcher */
+
 import {Injector, Inject, annotate, Provide} from 'di'
 import { hasAnnotation } from 'di'
 
