@@ -2,6 +2,11 @@
 | [ES6](https://github.com/sebmck/6to5)| [Browserify](http://browserify.org/)| [Web Stater Kit](https://github.com/google/web-starter-kit)| [Jade](http://jade-lang.com/)| [LESS](http://lesscss.org/)| [SASS](https://github.com/sass/node-sass)| [Mocha](http://mochajs.org/)
 |--- |--- |--- |--- |--- |--- |--- |--- |---
 
+#### What is this ?
+This is my interpretion of the flux archtecture. I use an Injector instace as an alias for a a dispatcher. Famo.us instead of react and some other crazy patterns. 
+
+This is still a work in progress and far away of being ready. This is just my pet project.
+
 #### Quickstart
 
 ```
