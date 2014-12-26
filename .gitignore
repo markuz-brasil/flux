@@ -5,6 +5,7 @@ dist
 .tmp
 tmp
 build
+dev
 .DS_Store
 *-bak
 bak

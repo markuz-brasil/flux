@@ -11,7 +11,7 @@ require('seed')(gulp, {
       // standalone: 'FLUX',
       entries: ['./index.es6', './tests/index.js'],
       sourcemaps: true,
-      dest: 'tmp',
+      dest: 'dev',
       aliases: {
         famous: 'famous/commonjs',
       },
@@ -41,7 +41,7 @@ require('seed')(gulp, {
     server: {
       baseDir: [
         './build',
-        './tmp',
+        './dev',
         './public',
         // CFG.src,
       ],
